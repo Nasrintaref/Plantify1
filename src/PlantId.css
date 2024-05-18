@@ -1,0 +1,96 @@
+
+.Button-class{
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    background-color: #103A21   ;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 55px;
+    margin-left:355px;
+   
+   
+} 
+
+.LoginPage{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.PlantIdPage h2{
+    
+    width: 100%;
+    color: #103A21;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-bottom: 320px; 
+    padding-left:490px;
+    white-space: pre-line; 
+    padding-right: 100px;   
+}
+.PlantIdPage h1{
+    width: 100%;
+    color: #103A21;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 4px; 
+    padding-left: 620px;   
+    text-align: Left;   
+
+}
+
+
+.PlantIdPage-img1{
+
+    position: absolute;
+    width: auto;
+    height: 300px;
+    top: 378px;
+    right:1250px ;
+    padding-bottom: 10px;
+
+}
+.PlantIdPage-img2{
+    position: absolute;
+    width: auto;
+    height: 350px;
+    top: 220px;
+    right:550px ;
+    padding-bottom: 10px;
+    border-radius: 50%;
+}
+.PlantIdPage-img3{
+
+    position: absolute;
+    width: auto;
+    height: 300px;
+    top: 378px;
+    right:0 ;
+    padding-bottom: 10px;
+
+}
+
+.PlantIdPage-img4{
+
+    position: absolute;
+    width: 588px;
+    height: 695px;
+    top: 50px;
+    right:380px ;
+    padding-bottom: 10px;
+    
+}

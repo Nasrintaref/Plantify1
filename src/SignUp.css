@@ -1,0 +1,116 @@
+
+
+
+    .SignUpPage{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+    }
+
+    .SignUpPage h1{
+
+    width: 100%;
+    color: #103A21;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    padding-left: 170px;
+    white-space: pre-line; 
+    text-align: center;  
+    padding-right: 710px;
+    }
+    .SignUpPage h2{
+    width: 100%;
+    color: #103A21;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 35px; 
+    padding-left: 290px;   
+    text-align: Left;   
+
+    }
+    .SignUpPage h3{
+    color: #103A21; 
+    font-size: 10px;
+    margin-top: -20px;
+    padding-bottom: 45px;
+    padding-left: 315px;      
+    font-weight: lighter;
+    }      
+
+    .SignUpPage input{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    margin-left:300px;
+    }
+
+    .SignUpPage button{
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    background-color: #103A21   ;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left:355px;
+    }
+
+
+    .SignUPImg{
+    position: absolute;
+    width: 500px;
+    height: 620px;
+    top: 58px;
+    right:1px ;
+    padding-bottom: 10px;
+
+    }
+    input[type="checkbox"] {
+        box-sizing: border-box;
+        width: 12px; /* רוחב התיבה */
+        height: 12px; /* גובה התיבה */
+        border: 2px solid #333; /* גבול */
+        border-radius: 4px; /* מעגלים בפינות */
+        outline: none; /* מונע גבול סביב התיבה כאשר היא בתצורת focus */
+        cursor: pointer; /* סמל עכבר יופיע בצורת יד כאשר העכבר עובר מעל התיבה */
+        background-color: gray; /* צבע רקע של התיבה */
+        margin-left: 295px;
+        margin-top: 8px;
+    }
+
+    /* סגנון לתיבת סימון כאשר היא מסומנת */
+    input[type="checkbox"]:checked {
+        background-color: white; /* צבע רקע של התיבה כאשר היא מסומנת */
+    }
+
+    input[type="checkbox"]::before {
+        content: "✔"; /* מוסיף תוכן לפני התיבה */
+        display: block; /* הפך את התוכן ל-block כדי שנוכל לשנות את המידות והצבע */
+        width: 12px; /* רוחב הסימן */
+        height: 12px; /* גובה הסימן */
+        background-color: #103A21; /* צבע הסימן */
+        border: 1px solid #f0f0f0; /* גבול סביב הסימן */
+        border-radius: 2px; /* מעגלים בפינות הסימן */
+        position: relative; /* מיקום יחסי לפני התיבה */
+        top: 50%; /* מעלה את הסימן לאמצע התיבה לפי גובה */
+        left: 50%; /* מיקום את הסימן באמצע התיבה לפי רוחב */
+        transform: translate(-50%, -50%); /* מעביר את הסימן לאמצע התיבה */
+        color: white; /* צבע הסימן */
+        font-weight: bold; /* משנה את משקל הגופן לעבה */
+        text-align: center; /* מיקום הטקסט במרכז */
+        line-height: 15px; /* גובה השורה כדי שהטקסט יהיה במרכז */
+    }

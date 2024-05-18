@@ -1,0 +1,57 @@
+.LandingPage h1{
+    
+    width: 100%;
+    color: #127B0F;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 260px;
+    padding-bottom: 50px; 
+    padding-left: 190px;
+    white-space: pre-line; 
+    text-align: center;  
+    padding-right: 470px;   
+}
+.LandingPage button{
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    background-color: #103A21   ;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left:-250px;
+    margin-top: 10px;
+}
+
+
+.LandingPage1{
+    position: absolute;
+    width: auto;
+    height: 650px;
+    top: 58px;
+    right:1px ;
+    padding-bottom: 10px;
+
+}
+.logo{
+    position: absolute;
+    width: auto;
+    height: 200px;
+    top: 80px;
+    right:750px ;
+    padding-bottom: 10px;
+
+}
+.LandingPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LandingPage button {
+    margin-top: 10px; /* הוספת מרווח בין הכפתורים */
+}
