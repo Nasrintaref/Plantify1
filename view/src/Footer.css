@@ -1,0 +1,40 @@
+* {
+    font-family: "Poppins",sans-serif;;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    height: 10vh;
+    padding-top: 4px;
+    background-color: #103A21;
+    color: white;
+    display: flex;
+    justify-content:center ;
+    margin: 20 ;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+   }
+
+.footer1 {
+    font-size: 20px;
+    display: flex;
+    margin-right: 0;
+
+}
+
+.footer1 a {
+    margin-right: 40px; /* רווח קבוע מימין */
+    margin-top: 20px;
+}
+
+
+.footer2 {
+    font-size: 16px;
+    display: flex;
+    margin-left: 790px;
+    margin-top: 26px;
+   
+}

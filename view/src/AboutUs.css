@@ -1,0 +1,77 @@
+.about-section {
+    width: 100%;
+    background-image: url(../public/NewImgAboutUs.jpg);
+    background-size: cover; /* זה יכסה את כל המסך עם התמונה */
+    background-position: center; /* זה ימקם את התמונה במרכז */
+    height: 85vh; /* זה יגרום לתוך הרקע להיות בגובה של כל המסך */
+    display: flex;
+    justify-content:center;  /* זה ימקם את התוכן באופן אופקי במרכז */
+    align-items: center; /* זה ימקם את התוכן באופן אנכי במרכז */
+  }
+  
+  #h1 {
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bolder;
+    margin-top: 16px;
+    padding-bottom: 25px;    
+    margin-left: 160px;
+  }
+  
+
+  
+  .p-0,
+  .p-1,
+  .p-2
+   {
+    color: white;
+    font-size: 23px;
+    line-height: 1.5; 
+    margin-left: 40px;
+    white-space: pre-line;
+    text-align: justify;
+    width: 90%;
+    margin-bottom: 23px;
+  }
+
+  .Joinus-button {
+    position: absolute;
+    color:white;
+    display: inline;
+    background-color:#103A21; 
+    font-size: 22px;
+    line-height: 1.5;
+    margin-left: 90px;
+    margin-top:30px;
+    border-radius: 8px;
+    width: 46%;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background-color:white;
+    color: #103A21;
+    cursor: pointer;
+}
+  .Img-container{
+    text-align:right;
+    
+    
+  }
+  .content {
+   
+    background-color: rgba(16,58,33,0.654); /* זה יוסיף רקע לתוכן כדי להבדיל אותו מהרקע */
+    padding: 0px; /* זה יוסיף שטח מסביב לתוכן */
+    border-radius: 25px; /* זה יוסיף פינות מעוגלות לתוכן */
+    display: inline-block; 
+    max-width: 1000px;
+    width: 58%;
+    margin-bottom: 80px;
+    margin-top:70px;
+
+}
+.custom-link {
+  text-decoration: underline;
+}
